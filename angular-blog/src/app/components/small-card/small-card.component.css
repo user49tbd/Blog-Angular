@@ -1,0 +1,25 @@
+.conteiner_small_card{
+    /* border: 2px solid white; */
+    width: 100%;
+    display: flex;
+    direction: row;
+    height: 145px;
+    gap: 20px;
+    ;
+}
+.small_card_img > img{
+    object-fit: cover;
+    object-position: center;
+    width: 100%;
+    aspect-ratio: 16/9;
+}
+.title_items{
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+a{
+    text-decoration-line: none;
+    color: white;
+}

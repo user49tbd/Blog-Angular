@@ -1,0 +1,10 @@
+<div id="cardS" class="conteiner_small_card">
+    <div class="small_card_img" [style.width.px]="imgwidth">
+    <img src="{{cardimg}}" 
+        alt="empty" srcset="">
+    </div>
+    <div class="title_items">
+        <h1><a [routerLink]="['content', Id]">{{cardTitle}}</a></h1>
+        <p>{{cardDesc}}</p>
+    </div>
+</div>
